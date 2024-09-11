@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/do.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    height: 70px;
+    margin-bottom: 7.5%;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.navbar li{
+    padding: 5px;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.quadrado{
+    display: flex;
+    background-color: #333;
+    display: block;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+}
+span{
+    text-align: center;
+    color: #f4f4f4;
+}
+#artigos{
+    width: 85%;
+    margin: 2rem auto;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    background-color: #333;
+
+}
+.imagem{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50% 50%;
+    margin-bottom: 15px;
+}
+#artigos article{
+    padding: 25px;
+    border: 1px solid;
+    color: #f4f4f4;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5%;
+    margin-bottom: 0%;
+    background-color: #333;
+    padding: 1.75%;
+
+}
+footer p{
+    text-align: center;
+    width: 20%;
+    color: #f4f4f4;
+}
