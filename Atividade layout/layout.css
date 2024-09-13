@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans';
 }
 body{
     background-image: url(img/do.jpg);
@@ -39,12 +40,45 @@ img{
     background-color: #333;
     display: block;
     width: 80%;
-    height: 500px;
+    height: 580px;
     margin-left: 10%;
+    justify-content: center;
+    box-shadow: 5px 5px rgba(207, 207, 207, 0.5);
 }
 span{
     text-align: center;
     color: #f4f4f4;
+}
+h4{
+    margin-bottom: 10px;
+    color: #333;
+}
+h2{
+    margin-top: 10px;
+    font-size: 35px;
+    color:  #ef4400;
+
+}
+h5{
+    margin-bottom: 5px;
+    color: #333;
+}
+h3{
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f4f4f4;
+}
+p{
+    text-align: justify;
+}
+a{
+    margin-top: 15px;
+    text-decoration: none;
+    text-align: center;
 }
 #artigos{
     width: 85%;
@@ -56,12 +90,25 @@ span{
 
 }
 .imagem{
+    margin-left: 65px;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50% 50%;
+    margin-bottom: 15px;
+
+}
+.imagem2{
+    margin-left: 55px;
+    align-items: center;
     width: 100px;
     height: 100px;
     background-color: red;
     border-radius: 50% 50%;
     margin-bottom: 15px;
 }
+
 #artigos article{
     padding: 25px;
     border: 1px solid;
